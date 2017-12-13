@@ -1,0 +1,123 @@
+body{
+    background-color: #1a1a1a;
+}
+
+.header{
+    /*border: 3px solid orange;*/
+    text-align: center;
+    position: fixed;
+    left: 38%;
+    top: 2%;
+}
+
+.header> p{
+    /*border: 3px solid white;*/
+    font-family: 'Monoton', serif;
+    color: white;
+    font-size: 32px;
+    margin:0;
+}
+
+#gallery-container{
+    /*border: 3px solid brown;*/
+    overflow: hidden;
+}
+
+#gallery{
+    /*border: 3px solid blue;*/
+    position: relative;
+    top: 80px;
+    overflow-x:scroll;
+    height: 600px;
+}
+
+.info{
+    /*border: 3px solid white;*/
+    width: 400px !important;
+}
+
+.info> h1{
+    /*border: 3px solid orange;*/
+    font-family: 'Raleway', serif;
+    color: white;
+}
+
+.info> p{
+    /*border: 3px solid green;*/
+    font-family: 'Poiret One', sans-serif !important;
+    color: #bfbfbf !important;
+    font-size: 22px !important;
+    padding: 6px 12px;
+}
+
+.post{
+    /*border: 3px solid yellow;*/
+}
+
+.post> p{
+    /*border: 1px solid green;*/
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 17px;
+}
+
+.info> p> a:link{
+    text-decoration: none;
+    color: #FF851B;
+}
+
+.info> p> a:visited{
+    text-decoration: none;
+    color: #FF851B;
+}
+
+/*taking aspect ratio into account*/
+.photo-1{
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 450px;
+    width: 822px;
+}
+
+.photo-2{
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 450px;
+    width: 542px;
+}
+
+.photo-3{
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 450px;
+    width: 450px;
+}
+
+.photo-4{
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 450px;
+    width: 450px;
+}
+
+.photo-5{
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 450px;
+    width: 452px;
+}
+
+.photo-6{
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 450px;
+    width: 500px;
+}
+
+.photo-7{
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 450px;
+    width: 450px;
+}
+
