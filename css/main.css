@@ -29,6 +29,7 @@ body{
     top: 80px;
     overflow-x:scroll;
     height: 600px;
+    display: none;
 }
 
 .info{
@@ -72,52 +73,46 @@ body{
 }
 
 /*taking aspect ratio into account*/
-.photo-1{
-    border: 3px solid black;
-    border-radius: 15px;
+.box-1{
     height: 450px;
     width: 822px;
 }
 
-.photo-2{
-    border: 3px solid black;
-    border-radius: 15px;
+.box-2{
     height: 450px;
     width: 542px;
 }
 
-.photo-3{
-    border: 3px solid black;
-    border-radius: 15px;
+.box-3{
     height: 450px;
     width: 450px;
 }
 
-.photo-4{
-    border: 3px solid black;
-    border-radius: 15px;
+.box-4{
     height: 450px;
     width: 450px;
 }
 
-.photo-5{
-    border: 3px solid black;
-    border-radius: 15px;
+.box-5{
     height: 450px;
     width: 452px;
 }
 
-.photo-6{
-    border: 3px solid black;
-    border-radius: 15px;
+.box-6{
     height: 450px;
     width: 500px;
 }
 
-.photo-7{
-    border: 3px solid black;
-    border-radius: 15px;
+.box-7{
     height: 450px;
     width: 450px;
 }
+
+.photo{
+    border: 3px solid black;
+    border-radius: 15px;
+    max-width:100%;
+    max-height:100%;
+}
+
 
